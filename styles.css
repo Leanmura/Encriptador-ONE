@@ -1,0 +1,157 @@
+body {
+	background-color: rgb(243, 245, 252);
+	font-family: "Inter", sans-serif;
+}
+
+.contenedor {
+	width: auto;
+	height: 880px;
+}
+
+.logo {
+	position: absolute;
+	width: 120px;
+	height: 48px;
+	left: 40px;
+	top: 40px;
+}
+
+.texto-entrada {
+	position: absolute;
+	width: 680px;
+	height: 600px;
+	left: 240px;
+	top: 160px;
+
+	background-color: rgb(243, 245, 252);
+	border-style: none;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	font-family: "Inter", sans-serif;
+	color: #0a3871;
+}
+.texto-entrada::placeholder {
+	color: #0a3871;
+}
+.texto-entrada:focus-visible {
+	outline: none;
+	color: #031633;
+}
+
+.contenedor-salida {
+	position: absolute;
+	width: 400px;
+	height: 800px;
+	left: 1000px;
+	top: 40px;
+}
+
+.texto-salida {
+	width: 400px;
+	height: 800px;
+
+	background: #ffffff;
+	border-style: none;
+	border-radius: 32px;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	padding: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	font-family: "Inter", sans-serif;
+	color: #0a3871;
+}
+
+.munieco {
+	position: absolute;
+	left: 50px;
+	top: 200px;
+}
+
+.texto-munieco {
+	position: absolute;
+	left: 60px;
+	top: 520px;
+	width: 320px;
+	text-align: center;
+}
+
+.texto-munieco > p:first-child {
+	font-size: 18px;
+	width: 200px;
+	margin: 0px auto;
+	font-weight: bold;
+}
+.buttons {
+	position: absolute;
+	width: 684px;
+	height: 67px;
+	left: 240px;
+	top: 780px;
+}
+
+.button {
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	border: 2px solid #0a3871;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	transition: 0.3s all;
+}
+
+.button:hover {
+	transform: scale(1.01);
+	cursor: pointer;
+}
+
+.copiar {
+	position: absolute;
+	left: 60px;
+	top: 740px;
+	margin: 0px;
+	margin-right: 22px;
+	background: #0a3871;
+	color: white;
+	display: none;
+}
+
+.encriptar {
+	margin: 0px;
+	margin-right: 22px;
+	background: #0a3871;
+	color: white;
+}
+
+.encriptar:hover {
+	background: #092f5e;
+}
+
+.desencriptar {
+	margin: 0px;
+	background: #d8dfe8;
+}
+
+.desencriptar:hover {
+	background: #bbc1c9;
+}
+
+footer {
+	width: 1500px;
+	text-align: center;
+}
+
+.copyright {
+	font-size: 12px;
+	display: inline-block;
+}

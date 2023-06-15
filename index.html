@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="contenedor">
+            <img class="logo" src="./img/Logo.png" alt="Logo Alura">
+            <textarea id="texto-entrada" class="texto-entrada" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="buttons">
+                <input class="button encriptar" type="button" value="Encriptar" onclick="encriptar()">
+                <input class="button desencriptar" type="button" value="Desencriptar" onclick="dencriptar()">
+            </div>
+            <div class="contenedor-salida">
+                <textarea id="texto-salida" class="texto-salida" cols="30" rows="10" disabled></textarea>
+                <div class="placeholder-salida">
+                    <img id="munieco" class="munieco" src="./img/Muñeco.png" alt="Muñeco">
+                    <div id="texto-munieco" class="texto-munieco">
+                        <p>Ningun mensaje fue encontrado</p>
+                        <br>
+                        <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <input id="copiar" class="button copiar" type="button" value="Copiar" onclick="copiar()">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador Leanmura - 2023</p>
+    </footer>
+</body>
+<script src="animacion.js"></script>
+
+</html>
